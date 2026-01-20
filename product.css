@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    justify-content:space-between;
+}
+.nav i{
+    margin:30px;
+    color: white;
+}
+.nav h2{
+    margin-left: 20px;
+}
+.nav div a i:hover{
+    color: red;
+}
+.product{
+    margin: 150px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.product img{
+    display: grid;
+    border: 2px solid  black;
+    margin-bottom: 60px;
+}
+.spec{
+    display: flex;
+    width: 600px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    margin:auto;
+    margin-bottom: 50px;
+}
+.spec h3:hover{
+    background-color: red;
+    color: white;
+}
+.card{
+border: 2px solid rgb(50, 52, 53);
+width: 315px;
+padding: 10px;
+margin: 5px;
+
+}
+.cards{
+    display: flex;
+    flex-wrap:wrap ;
+    margin: 1px;
+    margin-bottom: 100px;
+    margin-top: 35px;
+}
+.ouradv{
+    display: flex;
+    margin: 40px;
+}
+.first{
+        width: 25%;
+        font-size: 20px;
+        margin-left: 50px;
+}
+.first i{
+    float: left;
+    margin-top: 6%;
+    font-size: 70px;
+    margin-right: 4px;
+    color: red;
+}
+.absec{
+    margin-top:  80px;
+    display: flex;
+    
+}
+.absec div{
+    width: 25%;
+    margin-right: 80px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+footer i{
+    
+    margin:10px;
+}
+footer div {
+align-content: center;
+}
